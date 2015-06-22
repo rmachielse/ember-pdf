@@ -64,7 +64,7 @@ export default Ember.Component.extend({
     var _this = this;
     this.get('textContent.items').forEach(function(textItem){
       var style = _this.get('textContent.styles')[textItem.fontName];
-      var textDiv = $('<div>');
+      var textDiv = _this.$('<div>');
 
       var tx = PDFJS.Util.transform(_this.get('viewport.transform'), textItem.transform);
       var angle = Math.atan2(tx[1], tx[0]);
