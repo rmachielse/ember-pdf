@@ -1,0 +1,1 @@
+export { default } from 'pdfjs/components/pdf-document';

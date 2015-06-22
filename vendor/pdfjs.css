@@ -1,0 +1,34 @@
+.page {
+  direction: ltr;
+  margin: 10px auto;
+  position: relative;
+  overflow: visible;
+  box-shadow: 0 0 5px black;
+  background-color: white;
+}
+.page .canvasWrapper {
+  overflow: hidden;
+}
+.page .canvasWrapper canvas {
+  margin: 0;
+  display: block;
+}
+.page .textLayer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.page .textLayer div {
+  color: transparent;
+  position: absolute;
+  white-space: pre;
+  cursor: text;
+  -webkit-transform-origin: 0% 0%;
+  -moz-transform-origin: 0% 0%;
+  -o-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}

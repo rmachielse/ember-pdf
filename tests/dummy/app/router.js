@@ -6,6 +6,8 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('document');
+  this.route('page');
 });
 
 export default Router;
