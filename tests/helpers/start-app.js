@@ -7,7 +7,7 @@ export default function startApp(attrs) {
   var application;
 
   var attributes = Ember.merge({}, config.APP);
-  attributes = Ember.merge(attributes, attrs); // use defaults, but you can override;
+  attributes = Ember.merge(attributes, attrs);
 
   Ember.run(function() {
     application = Application.create(attributes);

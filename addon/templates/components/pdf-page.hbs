@@ -1,6 +1,6 @@
-<div id="pageContainer{{pageNumber}}" class="page">
-  <div class="canvasWrapper">
-    <canvas></canvas>
-  </div>
-  <div class="textLayer"></div>
+<div id="pageContainer{{pageNumber}}" class="page" style="width: {{width}}; height: {{height}};">
+  {{pdf-canvas page=page viewport=viewport}}
+  {{#if textLayer}}
+    {{pdf-text-layer page=page viewport=viewport}}
+  {{/if}}
 </div>

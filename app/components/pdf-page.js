@@ -1,1 +1,1 @@
-export { default } from 'pdfjs/components/pdf-page';
+export { default } from 'ember-pdf/components/pdf-page';

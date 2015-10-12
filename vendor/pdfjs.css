@@ -8,10 +8,14 @@
 }
 .page .canvasWrapper {
   overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
 .page .canvasWrapper canvas {
   margin: 0;
   display: block;
+  width: 100%;
+  height: 100%;
 }
 .page .textLayer {
   position: absolute;
